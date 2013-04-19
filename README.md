@@ -8,14 +8,12 @@ some useful urls:
   http://sw-dev-blog.tumblr.com/
 
 technologies:
-
-Backend: 
-- php
-
-Frontend:
-- javascript
-- html
-- css
+- backend: 
+  - php
+- frontend:
+  - javascript
+  - html
+  - css
 
 description:
 
