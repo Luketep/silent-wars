@@ -11,7 +11,7 @@ technologies:
 
 Backend: 
 - php
-- 
+
 Frontend:
 - javascript
 - html
