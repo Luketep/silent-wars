@@ -1,0 +1,13 @@
+# https://severalnines.com/blog/mysql-docker-composing-stack
+version: '2'
+ 
+services:
+  mysql:
+    image: mysql
+    container_name: sw-mysql
+    ports:
+      - 6603:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: "password"
+    volumes:
+      - /storage/docker/mysql-datadir:/var/lib/mysql
